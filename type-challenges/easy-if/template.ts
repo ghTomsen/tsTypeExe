@@ -1,0 +1,1 @@
+type If<F extends boolean, T, U> = F extends true ? T : U;
